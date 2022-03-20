@@ -1,4 +1,4 @@
-package cn.gd.snm.testui
+package cn.gd.snm.uitest
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,10 +6,10 @@ import android.os.Bundle
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        test()
+//        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_main2)
+
     }
 
-    private fun test() {
-    }
+
 }
